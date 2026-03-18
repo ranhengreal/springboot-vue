@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: auth-api
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 20MB
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/auth_db_02?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+
+files:
+  upload:
+    path: D:/auth/
+  download:
+    path: D:/auth/files/
+
+# JWT配置
+jwt:
+  secret: auth-system-secret-key-2024-1234
+  expiration: 86400000 # 24小时（毫秒）
