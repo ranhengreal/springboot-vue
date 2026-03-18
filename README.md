@@ -50,6 +50,14 @@
 - Node.js 18+
 - MySQL 8.0+
 - Git
+## 🖼️ 项目预览
+
+| 页面 | 预览 |
+|------|------|
+| **登录页面** | <img src="auth-vue/src/assets/img/screenshots/login.png" alt="登录页面" width="100%"> |
+| **用户管理** | <img src="auth-vue/src/assets/img/screenshots/user-management.png" alt="用户管理" width="100%"> |
+| **角色管理** | <img src="auth-vue/src/assets/img/screenshots/role-management.png" alt="角色管理" width="100%"> |
+| **权限管理** | <img src="auth-vue/src/assets/img/screenshots/permission-management.png" alt="权限管理" width="100%"> |
 
 ### 获取项目
 ```bash
